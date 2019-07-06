@@ -37,6 +37,10 @@
 .page-header>.content{
     margin-top: 15%;
 }
+.navbar-collapse:before {
+    background: #f96332;
+    background: linear-gradient(#e61c2b, #000 80%);
+}
 @media screen and (max-width:768px) {
     .page-header>.content {
         margin-top: 44%!important;
