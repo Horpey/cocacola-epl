@@ -48,7 +48,43 @@
     background-color: hsla(0, 0%, 100%, 0.25)!important;
     color: #fff;
 }
-
+.bg-theme{
+    background: #e61c2b;
+}
+.text-color{
+    color: #e61c2b;
+}
+.page-header.page-header-small {
+    min-height: 40vh;
+}
+.navbar-black{
+    background: black;
+}
+.bg-theme ul li a, .bg-theme:not(.footer-big) .copyright{
+    color: white;
+}
+.howstep{
+    text-align: center;
+    margin: 60px 0px;
+}
+.howstep h1{
+    font-size: 7em;
+    margin-bottom: 0px;
+}
+.howstep h4{
+    margin: 0px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: cervo;
+    margin-bottom: 10px;
+}
+.howstep p{
+    font-size: 14px;
+    color: #929292;
+}
+.min-hei{
+    height: 250px;
+}
 @media screen and (max-width:768px) {
     .page-header>.content {
         margin-top: 44%!important;
