@@ -38,8 +38,8 @@
     margin-top: 15%;
 }
 .navbar-collapse:before {
-    background: #f96332;
-    background: linear-gradient(#e61c2b, #000 80%);
+    /* background: #f96332; */
+    background: linear-gradient(#e61c2b, #000 80%)!important;
 }
 @media screen and (max-width:768px) {
     .page-header>.content {
