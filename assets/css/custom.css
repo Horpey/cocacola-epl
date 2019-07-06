@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "cervo";
+    src: url("../fonts/cervo-neu.woff") format('woff');
+}
+.cfont{
+    font-family: cervo;
+}
+.heading-txt{
+    font-size: 8em;
+    line-height: 100%;
+}
+.btn-custom{
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: .6em 1.85em!important;
+}
+.btn-custom:hover{
+    background-color: white;
+    color: black
+}
+.page-header {
+    background: #0000007a;
+}
+.btn-navbarc{
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: .6em 0.85em!important
+}
+.btn-navbarc:hover{
+    background: rgba(255, 255, 255, 0.164);
+    border-color: rgba(255, 255, 255, 0.164);
+}
+.page-header>.content{
+    margin-top: 15%;
+}
+@media screen and (max-width:768px) {
+    .page-header>.content {
+        margin-top: 44%!important;
+    }
+}
