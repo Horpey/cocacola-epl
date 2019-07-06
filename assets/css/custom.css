@@ -41,6 +41,14 @@
     /* background: #f96332; */
     background: linear-gradient(#e61c2b, #000 80%)!important;
 }
+.page-header>.auth-content {
+    margin-top: 10%;
+}
+.card-login.card-plain .input-group.no-border .form-control ,.card-login.card-plain .input-group.no-border .input-group-text{
+    background-color: hsla(0, 0%, 100%, 0.25)!important;
+    color: #fff;
+}
+
 @media screen and (max-width:768px) {
     .page-header>.content {
         margin-top: 44%!important;
